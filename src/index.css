@@ -30,6 +30,7 @@ ol, ul {
   padding: 0;
   text-align: center;
   width: 34px;
+  transition: background-color 0.3s linear;
 }
 
 .square:focus {
@@ -49,3 +50,10 @@ ol, ul {
   margin-left: 20px;
 }
 
+.history-selected-move {
+  font-weight: bold;
+}
+
+.winning-square {
+  background-color: rgb(109, 248, 104);
+}
